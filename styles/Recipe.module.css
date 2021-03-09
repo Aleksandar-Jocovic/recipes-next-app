@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+	width: 100%;
+	padding: 50px 20px;
+	justify-content: space-around;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.info {
+	max-width: 450px;
+}
+.container ul {
+	list-style-type: none;
+	margin: unset;
+	padding: 0 10px 40px 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container .foodImage {
+	width: 40%;
+	height: 40%;
+	max-width: 330px;
+	align-self: center;
+}
+
+.detailsContainer {
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.buttonsContainer {
+	padding: 20px 0;
+	display: flex;
+	justify-content: flex-end;
+}

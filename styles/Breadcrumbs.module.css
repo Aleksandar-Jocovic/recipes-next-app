@@ -1,0 +1,27 @@
+.breadcrumbNav ol {
+	list-style: none;
+	display: flex;
+	text-transform: uppercase;
+}
+
+.breadcrumbNav ol li {
+	margin-right: 10px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.breadcrumbNav ol li a::after {
+	content: '\203A';
+	color: #ca7f92;
+	font-size: 25px;
+	font-weight: 700;
+	position: relative;
+	top: 3px;
+	left: 4px;
+	height: fit-content;
+	user-select: none;
+}
+
+.breadcrumbNav ol li:nth-last-child(1) a::after {
+	opacity: 0;
+}

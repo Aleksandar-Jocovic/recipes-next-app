@@ -1,0 +1,16 @@
+.details {
+	padding: 10px 0;
+	display: flex;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.details span,
+.details p {
+	margin: 0 15px;
+}
+.details p {
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}

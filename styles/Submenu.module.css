@@ -1,0 +1,42 @@
+.subMenu {
+	width: 100%;
+	background-color: #f8f5f0;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.subList {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
+.subList li {
+	position: relative;
+}
+
+.subList li button {
+	padding: 5px 15px;
+	background: none;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	cursor: pointer;
+	position: relative;
+}
+
+.subList li button:hover {
+	background: #f2ede4;
+}
+
+.subList li:hover div {
+	display: flex;
+}

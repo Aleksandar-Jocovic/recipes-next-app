@@ -1,0 +1,28 @@
+.dropdown {
+	width: 135px;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	background: #f8f5f0;
+	padding: 20px 2px;
+	z-index: 3;
+}
+
+.dropdown a {
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	text-align: start;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.dropdown a:hover {
+	background: #f2ede4;
+}
