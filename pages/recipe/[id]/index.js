@@ -22,7 +22,6 @@ export const getServerSideProps = async context => {
 	const URL = `https://api.edamam.com/search?q=${context.params.id}&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=3&calories=591-722&health=alcohol-free`;
 	const res = await fetch(URL);
 	const recipes = await res.json();
-	console.log(recipes);
 	return {
 		props: {
 			recipes

@@ -12,6 +12,7 @@
 	justify-content: center;
 	align-items: center;
 	list-style: none;
+	padding-left: 10vw;
 }
 
 .subList li {
@@ -28,7 +29,7 @@
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: bold;
-	color: #000;
+	color: #333;
 	cursor: pointer;
 	position: relative;
 }

@@ -10,7 +10,6 @@ const Recipe = ({ item }) => {
 	const formatTime = () => {
 		if (totalTime <= 60) return `${totalTime} min`;
 		const decimal = (totalTime / 60).toFixed(2);
-		console.log(decimal);
 		const hours = Math.floor(decimal);
 		const mins = Math.floor((decimal - hours) * 60);
 		return `${hours} hr ${mins} min`;

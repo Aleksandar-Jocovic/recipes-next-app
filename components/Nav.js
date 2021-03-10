@@ -12,7 +12,7 @@ const Nav = () => {
 		<nav className={navStyles.nav}>
 			<ul className={navStyles.navList}>
 				<li>
-					<Link href='/shop'>Home</Link>
+					<Link href='/'>Home</Link>
 				</li>
 				<li>
 					<button onClick={() => setToggleRecepies(!toggleRecepies)}>

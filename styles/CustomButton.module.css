@@ -21,10 +21,6 @@
 	transition: filter 300ms;
 }
 
-/* .button:hover div:nth-child(1) {
-	top: 1px;
-} */
-
 .button:hover {
 	filter: brightness(0.9);
 }
